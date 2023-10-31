@@ -1,9 +1,11 @@
 import './Header.css';
+import navicon from "../../assets/favicon.ico";
 
 const Header = () => {
     return (
         <div className='nav'>
-            <h1 className='icon'>Ema-John</h1>
+            <h1 className='img'><img src={navicon} alt="" />
+                <span className='icon'>ma-John</span></h1>
 
             <div className='nav-item'>
                 <a href=""> Order </a>
