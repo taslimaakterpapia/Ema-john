@@ -7,8 +7,8 @@ const Header = () => {
 
             <div className='nav-item'>
                 <a href=""> Order </a>
-                <a href="">order View</a>
-                <a href="">Manage</a>
+                <a href="">order Review</a>
+                <a href="">Manage Inventory</a>
                 <a href="">Login</a>                
             </div>
 
