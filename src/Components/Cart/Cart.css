@@ -5,6 +5,8 @@
     color: aliceblue;
     border-radius: 8px;
     margin-top: 10px;
+    position: sticky;
+    top: 0;
     
 }
 .cart h1{
