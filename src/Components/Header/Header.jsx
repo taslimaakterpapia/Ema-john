@@ -1,5 +1,6 @@
 import './Header.css';
 import navicon from "../../assets/favicon.ico";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -9,10 +10,10 @@ const Header = () => {
                 <span className='icon'>ma-John</span></h1>
 
             <div className='nav-item'>
-                <a href=""> Order </a>
-                <a href="">order Review</a>
-                <a href="">Manage Inventory</a>
-                <a href="">Login</a>                
+                <Link to="/"> Order </Link>
+                <Link to="/order">order Review</Link>
+                <Link to="/inventory">Manage Inventory</Link>
+                <Link to="/login">Login</Link>                
             </div>
             </div>
 
