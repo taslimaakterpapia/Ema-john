@@ -10,9 +10,9 @@ const Header = () => {
                 <span className='icon'>ma-John</span></h1>
 
             <div className='nav-item'>
-                <Link to="/"> Order </Link>
-                <Link to="/order">order Review</Link>
-                <Link to="/inventory">Manage Inventory</Link>
+                <Link to="/"> Shop </Link>
+                <Link to="/order">order</Link>
+                <Link to="/inventory">Inventory</Link>
                 <Link to="/login">Login</Link>                
             </div>
             </div>
